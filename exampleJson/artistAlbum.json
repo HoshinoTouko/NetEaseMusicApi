@@ -1,0 +1,386 @@
+{
+    "code": 200,
+    "artist": {
+        "img1v1Id": 0,
+        "name": "雨宮天",
+        "id": 932027,
+        "alias": [
+            "あまみや そら"
+        ],
+        "briefDesc": "",
+        "picUrl": "http://p3.music.126.net/OOVqfjNR9Fsj2Z-h2_VRAw==/5880188185661309.jpg",
+        "picId": 5880188185661309,
+        "albumSize": 7,
+        "img1v1Url": "http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+        "musicSize": 51,
+        "trans": ""
+    },
+    "hotAlbums": [
+        {
+            "songs": [],
+            "name": "Velvet Rays",
+            "id": 3279666,
+            "type": "EP/Single",
+            "size": 3,
+            "status": 0,
+            "description": "",
+            "tags": "",
+            "alias": [],
+            "artists": [
+                {
+                    "img1v1Id": 0,
+                    "name": "雨宮天",
+                    "id": 932027,
+                    "alias": [],
+                    "briefDesc": "",
+                    "picUrl": "http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                    "picId": 0,
+                    "albumSize": 0,
+                    "img1v1Url": "http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                    "musicSize": 0,
+                    "trans": ""
+                }
+            ],
+            "briefDesc": "",
+            "artist": {
+                "img1v1Id": 0,
+                "name": "雨宮天",
+                "id": 932027,
+                "alias": [
+                    "あまみや そら"
+                ],
+                "briefDesc": "",
+                "picUrl": "http://p4.music.126.net/OOVqfjNR9Fsj2Z-h2_VRAw==/5880188185661309.jpg",
+                "picId": 5880188185661309,
+                "albumSize": 7,
+                "img1v1Url": "http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                "musicSize": 51,
+                "trans": ""
+            },
+            "picUrl": "http://p3.music.126.net/RN_ixro-567OM6oKU0bQlg==/3251255883987090.jpg",
+            "picId": 3251255883987090,
+            "commentThreadId": "R_AL_3_3279666",
+            "publishTime": 1441728000000,
+            "company": "Music Ray'n",
+            "copyrightId": 0,
+            "pic": 3251255883987090,
+            "blurPicUrl": "http://p4.music.126.net/RN_ixro-567OM6oKU0bQlg==/3251255883987090.jpg",
+            "companyId": 0
+        },
+        {
+            "songs": [],
+            "name": "モンスター娘のいる日常 キャラクターソング Vol.1",
+            "id": 3279417,
+            "type": "EP/Single",
+            "size": 5,
+            "status": 0,
+            "description": "",
+            "tags": "",
+            "alias": [
+                "TV动画《魔物娘的同居日常》角色歌专辑1"
+            ],
+            "artists": [
+                {
+                    "img1v1Id": 0,
+                    "name": "雨宮天",
+                    "id": 932027,
+                    "alias": [],
+                    "briefDesc": "",
+                    "picUrl": "http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                    "picId": 0,
+                    "albumSize": 0,
+                    "img1v1Url": "http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                    "musicSize": 0,
+                    "trans": ""
+                }
+            ],
+            "briefDesc": "",
+            "artist": {
+                "img1v1Id": 0,
+                "name": "雨宮天",
+                "id": 932027,
+                "alias": [
+                    "あまみや そら"
+                ],
+                "briefDesc": "",
+                "picUrl": "http://p3.music.126.net/OOVqfjNR9Fsj2Z-h2_VRAw==/5880188185661309.jpg",
+                "picId": 5880188185661309,
+                "albumSize": 7,
+                "img1v1Url": "http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                "musicSize": 51,
+                "trans": ""
+            },
+            "picUrl": "http://p3.music.126.net/X0kmysuxDcboIQ1La2WM1A==/3269947581629282.jpg",
+            "picId": 3269947581629282,
+            "commentThreadId": "R_AL_3_3279417",
+            "publishTime": 1441123200000,
+            "company": "TOHO animation RECORDS",
+            "copyrightId": 0,
+            "pic": 3269947581629282,
+            "blurPicUrl": "http://p3.music.126.net/X0kmysuxDcboIQ1La2WM1A==/3269947581629282.jpg",
+            "companyId": 0
+        },
+        {
+            "songs": [],
+            "name": "パンチライン 第1巻 特典CD",
+            "id": 3211190,
+            "type": "EP/Single",
+            "size": 4,
+            "status": 1,
+            "description": "",
+            "tags": "",
+            "alias": [],
+            "artists": [
+                {
+                    "img1v1Id": 0,
+                    "name": "雨宮天",
+                    "id": 932027,
+                    "alias": [],
+                    "briefDesc": "",
+                    "picUrl": "http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                    "picId": 0,
+                    "albumSize": 0,
+                    "img1v1Url": "http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                    "musicSize": 0,
+                    "trans": ""
+                }
+            ],
+            "briefDesc": "",
+            "artist": {
+                "img1v1Id": 0,
+                "name": "雨宮天",
+                "id": 932027,
+                "alias": [
+                    "あまみや そら"
+                ],
+                "briefDesc": "",
+                "picUrl": "http://p4.music.126.net/OOVqfjNR9Fsj2Z-h2_VRAw==/5880188185661309.jpg",
+                "picId": 5880188185661309,
+                "albumSize": 7,
+                "img1v1Url": "http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                "musicSize": 51,
+                "trans": ""
+            },
+            "picUrl": "http://p4.music.126.net/QdvR0GuBv76GNDr-zq9XCg==/7785641837372111.jpg",
+            "picId": 7785641837372111,
+            "commentThreadId": "R_AL_3_3211190",
+            "publishTime": 1437494400000,
+            "company": "Aniplex",
+            "copyrightId": 0,
+            "pic": 7785641837372111,
+            "blurPicUrl": "http://p3.music.126.net/QdvR0GuBv76GNDr-zq9XCg==/7785641837372111.jpg",
+            "companyId": 0
+        },
+        {
+            "songs": [],
+            "name": "キラリ☆ONE WAY LOVE",
+            "id": 3075011,
+            "type": "EP/Single",
+            "size": 2,
+            "status": 0,
+            "description": "",
+            "tags": "",
+            "alias": [
+                "TV动画《魔法科高校的劣等生》第5卷 特典CD"
+            ],
+            "artists": [
+                {
+                    "img1v1Id": 0,
+                    "name": "雨宮天",
+                    "id": 932027,
+                    "alias": [],
+                    "briefDesc": "",
+                    "picUrl": "http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                    "picId": 0,
+                    "albumSize": 0,
+                    "img1v1Url": "http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                    "musicSize": 0,
+                    "trans": ""
+                }
+            ],
+            "briefDesc": "",
+            "artist": {
+                "img1v1Id": 0,
+                "name": "雨宮天",
+                "id": 932027,
+                "alias": [
+                    "あまみや そら"
+                ],
+                "briefDesc": "",
+                "picUrl": "http://p4.music.126.net/OOVqfjNR9Fsj2Z-h2_VRAw==/5880188185661309.jpg",
+                "picId": 5880188185661309,
+                "albumSize": 7,
+                "img1v1Url": "http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                "musicSize": 51,
+                "trans": ""
+            },
+            "picUrl": "http://p4.music.126.net/mPy_TuS8L3fQ4AWdi8tU4g==/6669637535265681.jpg",
+            "picId": 6669637535265681,
+            "commentThreadId": "R_AL_3_3075011",
+            "publishTime": 1416931200007,
+            "company": "Aniplex",
+            "copyrightId": 0,
+            "pic": 6669637535265681,
+            "blurPicUrl": "http://p4.music.126.net/mPy_TuS8L3fQ4AWdi8tU4g==/6669637535265681.jpg",
+            "companyId": 0
+        },
+        {
+            "songs": [],
+            "name": "月灯り",
+            "id": 3070189,
+            "type": "EP/Single",
+            "size": 3,
+            "status": 0,
+            "description": "",
+            "tags": "",
+            "alias": [
+                "TV动画《斩!赤红之瞳》ED"
+            ],
+            "artists": [
+                {
+                    "img1v1Id": 0,
+                    "name": "雨宮天",
+                    "id": 932027,
+                    "alias": [],
+                    "briefDesc": "",
+                    "picUrl": "http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                    "picId": 0,
+                    "albumSize": 0,
+                    "img1v1Url": "http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                    "musicSize": 0,
+                    "trans": ""
+                }
+            ],
+            "briefDesc": "",
+            "artist": {
+                "img1v1Id": 0,
+                "name": "雨宮天",
+                "id": 932027,
+                "alias": [
+                    "あまみや そら"
+                ],
+                "briefDesc": "",
+                "picUrl": "http://p3.music.126.net/OOVqfjNR9Fsj2Z-h2_VRAw==/5880188185661309.jpg",
+                "picId": 5880188185661309,
+                "albumSize": 7,
+                "img1v1Url": "http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                "musicSize": 51,
+                "trans": ""
+            },
+            "picUrl": "http://p4.music.126.net/rKhOMuxrQbdwJz632fLP3Q==/6635552674752524.jpg",
+            "picId": 6635552674752524,
+            "commentThreadId": "R_AL_3_3070189",
+            "publishTime": 1416326400007,
+            "company": "MusicRay'n Inc.",
+            "copyrightId": 0,
+            "pic": 6635552674752524,
+            "blurPicUrl": "http://p3.music.126.net/rKhOMuxrQbdwJz632fLP3Q==/6635552674752524.jpg",
+            "companyId": 0
+        },
+        {
+            "songs": [],
+            "name": "Skyreach",
+            "id": 2951044,
+            "type": "EP/Single",
+            "size": 3,
+            "status": 0,
+            "description": "",
+            "tags": "",
+            "alias": [],
+            "artists": [
+                {
+                    "img1v1Id": 0,
+                    "name": "雨宮天",
+                    "id": 932027,
+                    "alias": [],
+                    "briefDesc": "",
+                    "picUrl": "http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                    "picId": 0,
+                    "albumSize": 0,
+                    "img1v1Url": "http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                    "musicSize": 0,
+                    "trans": ""
+                }
+            ],
+            "briefDesc": "",
+            "artist": {
+                "img1v1Id": 0,
+                "name": "雨宮天",
+                "id": 932027,
+                "alias": [
+                    "あまみや そら"
+                ],
+                "briefDesc": "",
+                "picUrl": "http://p3.music.126.net/OOVqfjNR9Fsj2Z-h2_VRAw==/5880188185661309.jpg",
+                "picId": 5880188185661309,
+                "albumSize": 7,
+                "img1v1Url": "http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                "musicSize": 51,
+                "trans": ""
+            },
+            "picUrl": "http://p3.music.126.net/bDyCzB9STe58aYE09xX5Dw==/8899447115341947.jpg",
+            "picId": 8899447115341947,
+            "commentThreadId": "R_AL_3_2951044",
+            "publishTime": 1407859200007,
+            "company": "Music Ray'n",
+            "copyrightId": 0,
+            "pic": 8899447115341947,
+            "blurPicUrl": "http://p3.music.126.net/bDyCzB9STe58aYE09xX5Dw==/8899447115341947.jpg",
+            "companyId": 0
+        },
+        {
+            "songs": [],
+            "name": "奏 (かなで)",
+            "id": 2843027,
+            "type": "EP/Single",
+            "size": 5,
+            "status": 0,
+            "description": "",
+            "tags": "",
+            "alias": [
+                " TVアニメ『一週間フレンズ。』エンディングテーマ"
+            ],
+            "artists": [
+                {
+                    "img1v1Id": 0,
+                    "name": "雨宮天",
+                    "id": 932027,
+                    "alias": [],
+                    "briefDesc": "",
+                    "picUrl": "http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                    "picId": 0,
+                    "albumSize": 0,
+                    "img1v1Url": "http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                    "musicSize": 0,
+                    "trans": ""
+                }
+            ],
+            "briefDesc": "",
+            "artist": {
+                "img1v1Id": 0,
+                "name": "雨宮天",
+                "id": 932027,
+                "alias": [
+                    "あまみや そら"
+                ],
+                "briefDesc": "",
+                "picUrl": "http://p3.music.126.net/OOVqfjNR9Fsj2Z-h2_VRAw==/5880188185661309.jpg",
+                "picId": 5880188185661309,
+                "albumSize": 7,
+                "img1v1Url": "http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                "musicSize": 51,
+                "trans": ""
+            },
+            "picUrl": "http://p4.music.126.net/OnUpXkyz4JZCRxWeSzhneg==/5986840813486821.jpg",
+            "picId": 5986840813486821,
+            "commentThreadId": "R_AL_3_2843027",
+            "publishTime": 1400601600007,
+            "company": "東宝",
+            "copyrightId": 0,
+            "pic": 5986840813486821,
+            "blurPicUrl": "http://p3.music.126.net/OnUpXkyz4JZCRxWeSzhneg==/5986840813486821.jpg",
+            "companyId": 0
+        }
+    ],
+    "more": false
+}
