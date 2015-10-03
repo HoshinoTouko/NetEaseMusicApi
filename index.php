@@ -1,7 +1,7 @@
 <?php include("header.php"); ?>
 
 <?php 
-include("controls/function.php"); 
+include("api/function.php"); 
 $idd = $_GET['id'];
 if ($idd == '') {$idd = '28563201';}
 $songsobj = getSongsById($idd,"Obj");
@@ -41,7 +41,7 @@ $mp3URL = str_ireplace('http://m', 'http://p', $songsobj->mp3Url);
 			<ul class="collapsible" data-collapsible="accordion">
 				<li>
 					<div class="collapsible-header">歌词</div>
-					<div class="collapsible-body"><p><?php echo  str_ireplace("[", "<br>[", getMusicLrcById($idd,"Obj")->lrc->lyric); ?></p></div>
+					<div class="collapsible-body"><p><?php echo str_ireplace("[", "<br>[", getMusicLrcById($idd,"Obj")->lrc->lyric); ?></p></div>
 				</li>
 				<li>
 					<div class="collapsible-header">中文歌词（如果有翻译）</div>

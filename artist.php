@@ -1,5 +1,5 @@
 <?php include ("header.php"); ?>
-<?php include("controls/function.php"); ?>
+<?php include("api/function.php"); ?>
 <?php include("controls/pageFunction.php"); ?>
 <?php
 $getArtistId = $_GET['id']; 
