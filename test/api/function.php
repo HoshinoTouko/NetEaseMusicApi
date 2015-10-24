@@ -15,6 +15,23 @@ function getSongsById($iddd, $type)
 	}
 }
 
+function getPlayListById($iddd, $type)
+{
+	$url = 'http://music.163.com/api/playlist/detail/?id=' . $iddd ;
+	switch ($type)
+	{
+		case "Obj" :
+			return json_decode(curl_get($url));
+			break;
+		case "Json" :
+			return json_encode(json_decode(curl_get($url)));
+			break;
+		default :
+			break;
+	}
+}
+
+
 function getAlbumById($iddd, $type)
 {	
 	$url = 'http://music.163.com/api/album/' . $iddd . '?ext=true&id=' . $iddd . '&offset=0&total=true&limit=9999';
