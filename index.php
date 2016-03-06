@@ -7,9 +7,10 @@ if ($idd == '') {$idd = '28563201';}
 $songsobj = getSongsById($idd,"Obj");
 if ($songsobj == ''){echo '<p align="center">The mp3 donot exist</p>';}
 else {echo '<p align="center"><a href="' . getJsonUrlById($idd,"Songs") . '">JsonUrl</a></p>';}
-
-$mp3URL = str_ireplace('http://m', 'http://p', $songsobj->mp3Url);
-$mp3URLHQ = getSongHQ($songsobj);
+$mp3Url = new stdClass();
+$mp3Url->l = $songsobj->mp3Url;
+$mp3Url->m = getSongURL($songsobj,'m');
+$mp3Url->h = getSongURL($songsobj,'h');
 ?>
 
 
@@ -31,9 +32,10 @@ $mp3URLHQ = getSongHQ($songsobj);
 					</h6>
 				</div>
 				<div class="card-action">
-					<p><audio src="<?php echo $mp3URL; ?>" controls="controls"></audio></p>
-                    <h6><a href="<?php echo $mp3URL; ?>" class="deep-orange-text">Download Low Quality</a></h6>
-										<h6><a href="<?php echo $mp3URLHQ; ?>" class="deep-orange-text">Download High Quality</a></h6>
+					<p><audio src="<?php echo $mp3Url->l; ?>" controls="controls"></audio></p>
+                    <h6><a href="<?php echo $mp3Url->l; ?>" class="deep-orange-text">Download Low Quality</a></h6>
+										<h6><a href="<?php echo $mp3Url->m; ?>" class="deep-orange-text">Download Medium Quality</a></h6>
+										<h6><a href="<?php echo $mp3Url->h; ?>" class="deep-orange-text">Download High Quality</a></h6>
 
 				</div>
 			</div>
