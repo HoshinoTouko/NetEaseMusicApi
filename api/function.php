@@ -22,16 +22,30 @@ function getSongsById($iddd, $type)
 	}
 }
 
-function getSongHQ($song)
+function getSongURL($song, $type)
 {
   $url = '';
-  if($song && $song->lMusic && $song->lMusic->dfsId){
-    $dfsId = strval($song->lMusic->dfsId);
-    $url = sprintf("http://m%s.music.126.net/%s/%s.mp3", rand(1,3), decryptId($dfsId), $dfsId);
+  if($song && $song->lMusic && $song->lMusic->dfsId)
+  {
+    switch ($type)
+    {
+      case "l" :
+        $dfsId = strval($song->lMusic->dfsId);
+        break;
+      case "m" :
+        $dfsId = strval($song->mMusic->dfsId);
+        break;
+      case "h" :
+        $dfsId = strval($song->hMusic->dfsId);
+        break;
+      default :
+        $dfsId = strval($song->lMusic->dfsId);
+        break;
+    }
+    $url = sprintf("http://m%s.music.126.net/%s/%s.mp3", rand(1,2), decryptId($dfsId), $dfsId);
   }
   return $url;
 }
-
 
 function decryptId($id)
 {
