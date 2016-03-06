@@ -1,7 +1,7 @@
 <?php include("header.php"); ?>
 
-<?php 
-include("api/function.php"); 
+<?php
+include("api/function.php");
 $idd = $_GET['id'];
 if ($idd == '') {$idd = '28563201';}
 $songsobj = getSongsById($idd,"Obj");
@@ -9,13 +9,12 @@ if ($songsobj == ''){echo '<p align="center">The mp3 donot exist</p>';}
 else {echo '<p align="center"><a href="' . getJsonUrlById($idd,"Songs") . '">JsonUrl</a></p>';}
 
 $mp3URL = str_ireplace('http://m', 'http://p', $songsobj->mp3Url);
-
+$mp3URLHQ = getSongHQ($songsobj);
 ?>
 
 
 
 <div class="container">
-
 	<div class="row">
 		<div class="col s12 m6">
 			<div class="card">
@@ -34,11 +33,13 @@ $mp3URL = str_ireplace('http://m', 'http://p', $songsobj->mp3Url);
 				<div class="card-action">
 					<p><audio src="<?php echo $mp3URL; ?>" controls="controls"></audio></p>
                     <h6><a href="<?php echo $mp3URL; ?>" class="deep-orange-text">Download Low Quality</a></h6>
+										<h6><a href="<?php echo $mp3URLHQ; ?>" class="deep-orange-text">Download High Quality</a></h6>
+
 				</div>
 			</div>
 		</div>
 
-		
+
 		<div class="col s12 m6">
 			<ul class="collapsible" data-collapsible="accordion">
 				<li>
@@ -52,7 +53,7 @@ $mp3URL = str_ireplace('http://m', 'http://p', $songsobj->mp3Url);
 			</ul>
 		</div>
 	</div>
-  
+
   <div>
   <h3>专辑内包含歌曲</h3>
 	<?php
@@ -65,16 +66,16 @@ $mp3URL = str_ireplace('http://m', 'http://p', $songsobj->mp3Url);
 			echo '<br>';
 			$ii++;
 		}
-	
+
 	?>
-  
+
   </div>
-  
-  
 
 
-  
-  
+
+
+
+
 </div>
 
 
@@ -96,10 +97,7 @@ $mp3URL = str_ireplace('http://m', 'http://p', $songsobj->mp3Url);
 
 
   <!--  Scripts-->
-  
-  
+
+
 
 <?php include("footer.php"); ?>
-
-
-
