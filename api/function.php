@@ -22,6 +22,29 @@ function getSongsById($iddd, $type)
 	}
 }
 
+function getSongHQ($song)
+{
+  $url = '';
+  if($song && $song->lMusic && $song->lMusic->dfsId){
+    $dfsId = strval($song->lMusic->dfsId);
+    $url = sprintf("http://m%s.music.126.net/%s/%s.mp3", rand(1,3), decryptId($dfsId), $dfsId);
+  }
+  return $url;
+}
+
+
+function decryptId($id)
+{
+  $secret = '3go8&$8*3*3h0k(2)2';
+  $secret_len = strlen($secret);
+  $id_len = strlen($id);
+	for($i = 0; $i < $id_len; $i++)
+		$res[$i] = $id[$i] ^ $secret[$i % $secret_len];
+  $res = base64_encode(md5(implode('' , $res) , true));
+  return str_replace(array('/','+'),array('_','-'),$res);
+}
+
+
 function getPlayListById($iddd, $type)
 {
 	$url = 'http://music.163.com/api/playlist/detail/?id=' . $iddd ;
@@ -40,7 +63,7 @@ function getPlayListById($iddd, $type)
 
 
 function getAlbumById($iddd, $type)
-{	
+{
 	$url = 'http://music.163.com/api/album/' . $iddd . '?ext=true&id=' . $iddd . '&offset=0&total=true&limit=9999';
 	switch ($type)
 	{
@@ -56,7 +79,7 @@ function getAlbumById($iddd, $type)
 }
 
 function getArtistAlbumById($iddd, $type)
-{	
+{
 	$url = 'http://music.163.com/api/artist/albums/' . $iddd . '?ext=true&offset=0&total=true&limit=99999&id=' . $iddd;
 	switch ($type)
 	{

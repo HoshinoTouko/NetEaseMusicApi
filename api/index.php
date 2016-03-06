@@ -20,15 +20,14 @@ if ($songsobj == ''){echo '<p align="center">The mp3 donot exist</p>';die;}
 
 $result = array(
 		"mp3URL" => urlencode(str_ireplace('http://m', 'http://p', $songsobj->mp3Url)),
+		"mp3URLHQ" => getSongHQ($songsobj),
 		"img" => urlencode($songsobj->album->blurPicUrl),
 		"Artist" => $songsobj->artists[0]->name,
 		"Album" => $songsobj->album->name,
 		//"LRC" => getMusicLrcById($idd,"Obj")->lrc->lyric,
 		//"tLRC" => getMusicLrcById($idd,"Obj")->tlyric->lyric,
 		"Name" => $songsobj->name
-		
 	);
-
 return $result;
 
 }
