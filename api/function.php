@@ -1,4 +1,11 @@
 <?php
+
+function getMusicUrl($dfsId)
+{
+    $result = array();
+    exec('python api/encrypt_id.py '.$dfsId, $result);
+    return $result[0];
+}
 function getSongsById($iddd, $type)
 {
 	$url = 'http://music.163.com/api/song/detail/?ids=[' . $iddd . ']';
