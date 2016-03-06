@@ -7,7 +7,9 @@ if ($idd == '') {$idd = '28563201';}
 $songsobj = getSongsById($idd,"Obj");
 if ($songsobj == ''){echo '<p align="center">The mp3 donot exist</p>';}
 else {echo '<p align="center"><a href="' . getJsonUrlById($idd,"Songs") . '">JsonUrl</a></p>';}
+
 $mp3URL = str_ireplace('http://m', 'http://p', $songsobj->mp3Url);
+
 ?>
 
 
@@ -31,7 +33,7 @@ $mp3URL = str_ireplace('http://m', 'http://p', $songsobj->mp3Url);
 				</div>
 				<div class="card-action">
 					<p><audio src="<?php echo $mp3URL; ?>" controls="controls"></audio></p>
-					<h6><a href="<?php echo $mp3URL; ?>" class="deep-orange-text">Download</a></h6>
+                    <h6><a href="<?php echo $mp3URL; ?>" class="deep-orange-text">Download Low Quality</a></h6>
 				</div>
 			</div>
 		</div>
